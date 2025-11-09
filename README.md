@@ -48,7 +48,7 @@ Saltamos a la funcion para ver que ocurre en ella:
 
 En ella podemos ver como se cargan la direccion efectiva de memoria de las variables definidas `userpassword` y `passwd`
 
-Despues se llama al metodo == y si el test sale positivo devolveremos el string `success`, en caso contrario `invalidpassword`
+Despues se llama al operator == y si el test sale positivo devolveremos el string `success`, en caso contrario `invalidpassword`
 
 ![alt text](image-6.png)
 
@@ -83,3 +83,4 @@ En caso de devolver success salta al siguiente procedimiento que pinta `goood bo
 En caso contrario pinta `bad boy wrong password` y sale con codigo exit 1:
 
 ![alt text](image-13.png)
+
